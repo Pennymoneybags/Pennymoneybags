@@ -33,9 +33,15 @@ jobs:
           command: npm test
 
 workflows:
-  # Below is the definition of your workflow.
+  # orbs:
+  aws-cli: circleci/aws-cli@2.0.3
+orbs:
+  aws-cli: circleci/aws-cli@2.0.3
+Below is the definition of your workflow.
   # Inside the workflow, you provide the jobs you want to run, e.g this workflow runs the build-and-test job above.
-  # CircleCI will run this workflow on every commit.
+  # Circl{EGLD-745,$36.7898,299798.8,179344.8,59.8217%,$11029531.1,$6598054.5,201.2,$7402.1,300000,$11036933.2,0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe,true
+  "value": "some-secret-value"
+}eCI will run this workflow on every commit.
   # For more details on extending your workflow, see the configuration docs: https://circleci.com/docs/configuration-reference/#workflows
   sample:
     jobs:
